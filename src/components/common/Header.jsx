@@ -11,7 +11,7 @@ export const Header = () => {
       <header>
         <div className='container flexsb'>
           <div className='logo'>
-            <img src={logo} alt='' data-aos='zoom-in-right' />
+            <h3>Dawit Mellese</h3>
           </div>
           <div className={responsive ? "hideMenu" : "nav"}>
             {navlink.map((links, i) => (

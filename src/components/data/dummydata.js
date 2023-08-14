@@ -17,14 +17,7 @@ export const navlink = [
     url: "/portfolio",
     text: "Portfolio",
   },
-  {
-    url: "/testimonials",
-    text: "Testimonials",
-  },
-  {
-    url: "/blog",
-    text: "Blog",
-  },
+
   {
     url: "/contact",
     text: "Contact",
@@ -33,56 +26,36 @@ export const navlink = [
 export const home = [
   {
     text: "HELLO I'M",
-    name: "ALAMIN MUSA",
+    name: "DAWIT MELLESE",
     post: "WEB DESIGNER",
-    design: "UI / UX DESIGNER",
-    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book",
+    design: "PENTESTER",
+    desc: "Junior Web Developer specializing in creating user-friendly websites. I'm dedicated to delivering innovative solutions that enhance functionality and make brands shine in the digital world.",
   },
 ]
 export const about = [
   {
-    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    desc1: "magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor si voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-    cover: "./images/man.png",
+    desc: "I'm a Software Engineer committed to creating practical software solutions. I'm well-versed in programming languages like JavaScript, Python, and C++. I've got hands-on experience in building both the visible parts and the behind-the-scenes of websites.",
+    desc1: "Whether it's big software projects or smaller web development tasks, I'm comfortable and eager to dive in. My tech skills and teamwork mindset make me a great fit for any software engineering or web development role.",
+    cover: "./images/man1.jpg",
   },
 ]
 export const services = [
   {
     id: 1,
-    icon: <Settings />,
-    title: "Creative Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
+    icon: <CropRotate />,
+    title: "FrontEnd Developer",
+    desc: "As a dedicated Front End Developer, I specialize in crafting captivating user interfaces using React and various JavaScript frameworks. I thrive on translating design concepts into seamless interactive experiences that captivate users and enhance brands."},
   {
     id: 2,
-    icon: <CropRotate />,
-    title: "Clean Code",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
+    icon: <Settings />,
+    title: "BackEnd Developer",
+    desc: "I'm a Backend Developer with a specialization in Django, a powerful Python framework. I excel in architecting robust and scalable server-side solutions that fuel web applications with efficiency and functionality."},
   {
     id: 3,
     icon: <ViewInAr />,
-    title: "Responsive Design",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-  {
-    id: 4,
-    icon: <PieChart />,
-    title: "Material UI	",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-  {
-    id: 5,
-    icon: <Code />,
-    title: "Material UI Icons",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
-  {
-    id: 6,
-    icon: <BarChart />,
-    title: "Awesome Support",
-    desc: "Lorem Ipsum simply text of the printing and type setting industry when an unknown printing simply",
-  },
+    title: "Pentester",
+    desc: "As a Penetration Tester, I specialize in identifying security weaknesses and helping organizations bolster their defenses. I'm committed to conducting thorough assessments and delivering actionable insights to enhance digital security."},
+
 ]
 export const project = [
   {
